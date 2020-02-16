@@ -15,6 +15,12 @@
     <!-- UIkit 3.2.1 stylesheet -->
     <link rel="stylesheet" href="css/uikit.min.css">
     <!-- pyfellow theme stylesheets -->
+    <link rel="stylesheet" href="plugins/aboutbg.css">
+    <link rel="stylesheet" href="plugins/spprofile.css">
+    <link rel="stylesheet" href="plugins/butterflie-animation/style.css">
+    <link rel="stylesheet" href="plugins/sp-card-brc.css">
+    <link rel="stylesheet" href="plugins/gallery.css">
+    <link rel="stylesheet" href="plugins/news-card-border.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/media.css">
 </head>
@@ -27,10 +33,11 @@
                     <div class="col-12 col-md-7  col-sm-8">
                         <a href="index.html">
                             <div class="brand-logo">
-                                <img src="images/logo.svg" alt="">
+                                <img src="images/logo.png" alt="">
                             </div>
                             <div class="brand-name">
                                 <h1>জেলা পুলিশ, শেরপুর</h1>
+                                <p>শান্তি শৃঙ্খলা নিরাপত্তা</p>
                             </div>
                         </a>
                     </div>
@@ -53,8 +60,8 @@
                     <div class="collapse navbar-collapse py-navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav mr-auto">
                             <li class="nav-item">
-                                <a class="py-btn active" href="index.html"><i class="fas fa-home"></i><span
-                                        class="sr-only">(current)</span></a>
+                                <a class="py-btn icon icon-fill active" href="index.html"><i
+                                        class="fas fa-home"></i><span class="sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="py-btn dropdown-toggle" href="#" id="navbarDropdown" role="button"
@@ -161,7 +168,7 @@
         </div>
         </div>
     </header>
-    <div class="container" style="">
+    <div class="container">
         <div class="latest-news">
             <div class="latest-news-contant">
                 <marquee behavior="" direction="left" onmouseover="this.stop();" onmouseout="this.start();">
@@ -174,35 +181,75 @@
         </div>
     </div>
     <section class="banner">
+        <div class="banner-forground">
+            <img src="images/arts/banner-forground.png" alt="">
+        </div>
         <div class="side-bar">
             <ul>
-                <li><a href="#"><span><i class="fas fa-rss"></i></span>প্রেস রিলিজ</a></li>
-                <li><a href="#"><span><i class="fab fa-wpforms"></i></span>গুরুত্বপূর্ণ ফরমসমূহ</a></li>
-                <li><a href="#"><span><i class="far fa-copy"></i></span>দরপত্র</a></li>
-                <li><a href="#"><span><i class="fas fa-atom"></i></span>উদ্ভাবনী ক্রিয়াকলাপ</a></li>
-                <li><a href="#"><span><i class="far"></i></span>আরো</a></li>
+                <li>
+                    <a href="/p/দৈনন্দিন-ডিউটি-তালিকা">
+                        <div><i class="fas fa-book-open"></i></div>
+                        <p>দৈনন্দিন ডিউটি
+                            তালিকা</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://sherpurpolice.gov.bd/press-release">
+                        <div><i class="fas fa-rss"></i></div>
+                        <p>প্রেস রিলিজ</p>
+                    </a>
+                </li>
+                <li><a href="https://www.police.gov.bd/en/police_forms" target="_blank">
+                        <div><i class="fab fa-wpforms"></i></div>
+                        <p>গুরুত্বপূর্ণ
+                            ফরমসমূহ</p>
+                    </a></li>
+                <li><a href="https://sherpurpolice.gov.bd/tender">
+                        <div><i class="far fa-copy"></i></div>
+                        <p>দরপত্র</p>
+                    </a></li>
+                <li><a href="https://sherpurpolice.gov.bd/innovation">
+                        <div><i class="fas fa-atom"></i></div>
+                        <p>উদ্ভাবনী ক্রিয়াকলাপ</p>
+                    </a>
+                </li>
+                <li><a href="https://sherpurpolice.gov.bd/telephone">
+                        <div><i class="fas fa-phone-volume"></i></div>
+                        <p>যোগাযোগ</p>
+                    </a></li>
+                <li><a href="https://sherpurpolice.gov.bd/complain">
+                        <div><i class="fas fa-user-alt-slash"></i></div>
+                        <p>অভিযোগ</p>
+                    </a></li>
             </ul>
         </div>
         <div
             uk-slideshow="autoplay: true;  animation: fade; autoplay-interval: 4000; min-height: 300; max-height: 600;">
             <ul class="uk-slideshow-items">
-                <li class="uk-background-cover"
-                    style="background-image: url(images/randy-colas-r2lq1VIyuO4-unsplash.jpg)">
+                <li class="uk-background-cover" style="background-image: url(images/01.jpeg)">
                     <div class="container">
                         <div class="slide-content">
                             <h3>জেলা পুলিশ, শেরপুর</h3>
                             <br>
-                            <p>একবিংশ শতাব্দীর চ্যালেঞ্জ মোকাবেলায় পুলিশকে সর্বাধুনিক প্রযুক্তি জ্ঞান সম্পন্ন হতে
-                                হবে-আইজিপি</p>
+                            <p>শেরপুর সদর থানা</p>
                         </div>
                     </div>
                 </li>
-                <li class="uk-background-cover" style="background-image: url(images/police-cover.jpg">
+                <li class="uk-background-cover" style="background-image: url(images/02.jpeg)">
                     <div class="container">
                         <div class="slide-content">
-                            <h3>বাংলাদেশ পুলিশ</h3>
+                            <h3>জেলা পুলিশ, শেরপুর</h3>
                             <br>
-                            <p>মালি শান্তিরক্ষা মিশনে যোগ দিতে ১৭০ পুলিশ সদস্যের ঢাকা ত্যাগ</p>
+                            <p>ঝিনাইগাতী থানা</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="uk-background-cover" style="background-image: url(images/03.jpeg)">
+                    <div class="container">
+                        <div class="slide-content">
+                            <h3>জেলা পুলিশ, শেরপুর</h3>
+                            <br>
+                            <p>পুলিশ লাইন্স, শেরপুর</p>
                         </div>
                     </div>
                 </li>
@@ -217,38 +264,54 @@
             </div>
     </section>
     <!-- about section start from here -->
-    <section class="about-sec py-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 col-sm-12">
-                    <div class="about-img py-5">
-                        <img src="images/element.png" alt="">
-                    </div>
-                </div>
-                <div class="col-md-6 col-sm-12">
-                    <div class="about-contant py-5">
-                        <div class="sec-title">
-                            <h2>জেলা পুলিশ, শেরপুর</h2>
+    <section class="about-section">
+        <div class="about-sec area">
+            <ul class="circles">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+            <div class="container py-5">
+                <div class="row">
+                    <div class="col-md-6 col-sm-12">
+                        <div class="about-img py-5">
+                            <img src="images/element.png" alt="">
                         </div>
-                        <p class="py-text">মুক্তিযুদ্ধের পর বাংলাদেশ পুলিশ নামে সংগঠিত হয়। বাংলাদেশ পুলিশ পৃথিবীর
-                            অন্যান্য দেশের পুলিশ
-                            বাহিনীর মতো আইন শৃঙ্খলা রক্ষা, জনগনের জানমাল ও সম্পদের নিরাপত্তা বিধান, অপরাধ প্রতিরোধ ও
-                            দমনে
-                            প্রধান ভুমিকা পালন করে থাকে। মুক্তিযুদ্ধ বাংলাদেশ পুলিশের ট্রাডিশনাল চরিত্রে বিরাট পরিবর্তন
-                            এনে
-                            দিয়েছে। শুধু আইন পালন আর অপরাধ প্রতিরোধ বা দমনই নয় দেশের অর্থনৈতিক অগ্রগতির ধারা অব্যাহত
-                            রাখতে
-                            বাংলাদেশ পুলিশ গুরুত্বপূর্ণ ভুমিকা পালন করছে। গত এক দশকে জঙ্গীবাদ দমন এবং নিয়ন্ত্রনে
-                            বাংলাদেশ
-                            পুলিশ দক্ষতার পরিচয় দিয়েছে। পুলিশের সদস্যরা তাদের উদ্ভাবনী ক্ষমতা আর পেশাদরিত্ব দিয়ে
-                            অপরাধ
-                            মোকাবিলায় প্রতিনিয়ত সৃজনশীলতার পরিচয় দিচ্ছেন। ঘুষ দুনীর্তির কারনে একসময়ে অভিযুক্ত এই
-                            বাহিনী
-                            তার পেশাদরিত্ব আর জনগনের প্রতি দায়িত্ববোধের পরিচয় দিয়ে জনগনের গর্বের বাহিনীতে পরিণত
-                            হয়েছে।[৩]
-                        </p>
-                        <div class="py-btn-primary">
-                            <a href="about.html">আরো জানুন</a>
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <div class="about-contant py-5">
+                            <div class="sec-title">
+                                <h2 style="color: #da2d2d" ;>জেলা পুলিশ, শেরপুর</h2>
+                            </div>
+                            <p class="py-text">মুক্তিযুদ্ধের পর বাংলাদেশ পুলিশ নামে সংগঠিত হয়। বাংলাদেশ পুলিশ পৃথিবীর
+                                অন্যান্য দেশের পুলিশ
+                                বাহিনীর মতো আইন শৃঙ্খলা রক্ষা, জনগনের জানমাল ও সম্পদের নিরাপত্তা বিধান, অপরাধ প্রতিরোধ ও
+                                দমনে
+                                প্রধান ভুমিকা পালন করে থাকে। মুক্তিযুদ্ধ বাংলাদেশ পুলিশের ট্রাডিশনাল চরিত্রে বিরাট
+                                পরিবর্তন
+                                এনে
+                                দিয়েছে। শুধু আইন পালন আর অপরাধ প্রতিরোধ বা দমনই নয় দেশের অর্থনৈতিক অগ্রগতির ধারা
+                                অব্যাহত
+                                রাখতে
+                                বাংলাদেশ পুলিশ গুরুত্বপূর্ণ ভুমিকা পালন করছে। গত এক দশকে জঙ্গীবাদ দমন এবং নিয়ন্ত্রনে
+                                বাংলাদেশ
+                                পুলিশ দক্ষতার পরিচয় দিয়েছে। পুলিশের সদস্যরা তাদের উদ্ভাবনী ক্ষমতা আর পেশাদরিত্ব দিয়ে
+                                অপরাধ
+                                মোকাবিলায় প্রতিনিয়ত সৃজনশীলতার পরিচয় দিচ্ছেন। ঘুষ দুনীর্তির কারনে একসময়ে অভিযুক্ত এই
+                                বাহিনী
+                                তার পেশাদরিত্ব আর জনগনের প্রতি দায়িত্ববোধের পরিচয় দিয়ে জনগনের গর্বের বাহিনীতে পরিণত
+                                হয়েছে।[৩]
+                            </p>
+                            <div class="py-btn-primary">
+                                <a href="about.html">আরো জানুন</a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -257,26 +320,18 @@
     </section>
     <!-- about section end -->
     <!-- police supper section start from here -->
-    <section class="police-supper-sec py-5">
-        <div class="container">
+    <section class="police-supper-sec">
+        <div class="container py-5">
             <div class="row">
-                <div class="col-md-6">
-                    <div class="ps-card row py-5">
-                        <div class="col-5 col-md-5 col-sm-5 ps-card-img">
-                            <img src="images/1-407x407.jpg" alt="">
+                <div class="col-md-4">
+                    <div class="ps-card rainbow">
+                        <div class="ps-card-img">
+                            <img src="images/sp.jpg" alt="">
                         </div>
-                        <div class="col-7 col-md-7 col-sm-7 ps-card-body">
+                        <div class="ps-card-body text-center">
                             <div class="sec-title">
-                                <h3>পুলিশের নাম</h3>
-                                <p>পদবি</p>
-                            </div>
-                            <div class="ps-card-text">
-                                <p class="py-text">
-                                    এখানে ৩ লাইন লিখবেন।
-                                    এখানে ৩ লাইন লিখবেন।
-                                    এখানে ৩ লাইন লিখবেন।
-                                    এখানে ৩ লাইন লিখবেন।
-                                </p>
+                                <h3>জনাব কাজী আশরাফুল আজীম, পিপিএম</h3>
+                                <p>পুলিশ সুপার</p>
                             </div>
                             <div class="ps-btn">
                                 <a href="police-super.html">বিস্তারিত </a>
@@ -284,23 +339,15 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6">
-                    <div class="ps-card row py-5">
-                        <div class="col-5 col-md-5 col-sm-5 ps-card-img">
-                            <img src="images/1-407x407.jpg" alt="">
+                <div class="col-md-4">
+                    <div class="ps-card rainbow">
+                        <div class="ps-card-img">
+                            <img src="images/igp.jpg" alt="">
                         </div>
-                        <div class="col-7 col-md-7 col-sm-7 ps-card-body">
+                        <div class="ps-card-body text-center">
                             <div class="sec-title">
-                                <h3>পুলিশের নাম</h3>
-                                <p>পদবি</p>
-                            </div>
-                            <div class="ps-card-text">
-                                <p class="py-text">
-                                    এখানে ৩ লাইন লিখবেন।
-                                    এখানে ৩ লাইন লিখবেন।
-                                    এখানে ৩ লাইন লিখবেন।
-                                    এখানে ৩ লাইন লিখবেন।
-                                </p>
+                                <h3>জনাব মোঃ আমিনুল ইসলাম</h3>
+                                <p>অতিরিক্ত পুলিশ সুপার</p>
                             </div>
                             <div class="ps-btn">
                                 <a href="police-super.html">বিস্তারিত </a>
@@ -308,6 +355,99 @@
                         </div>
                     </div>
                 </div>
+                <div class="col-md-4">
+                    <div class="ps-card rainbow">
+                        <div class="ps-card-img">
+                            <img src="images/igp.jpg" alt="">
+                        </div>
+                        <div class="ps-card-body text-center">
+                            <div class="sec-title">
+                                <h3>জনাব মোঃ আমিনুল ইসলাম</h3>
+                                <p>অতিরিক্ত পুলিশ সুপার</p>
+                            </div>
+                            <div class="ps-btn">
+                                <a href="police-super.html">বিস্তারিত </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <ul class="circles">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+            <div class="py-btn-primary text-center">
+                <a style="position: relative;z-index: 1;"  class="collapsed" data-toggle="collapse" href="#collapse-bachon" aria-expanded="false" aria-controls="collapse-bachon">আরো দেখুন</a>
+            </div>
+            <div class="row pt-5 collapse" id="collapse-bachon">
+                <div class="col-md-4 mb-3">
+                    <div class="ps-card rainbow">
+                        <div class="ps-card-img">
+                            <img src="images/sp.jpg" alt="">
+                        </div>
+                        <div class="ps-card-body text-center">
+                            <div class="sec-title">
+                                <h3>জনাব কাজী আশরাফুল আজীম, পিপিএম</h3>
+                                <p>পুলিশ সুপার</p>
+                            </div>
+                            <div class="ps-btn">
+                                <a href="police-super.html">বিস্তারিত </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="ps-card rainbow">
+                        <div class="ps-card-img">
+                            <img src="images/igp.jpg" alt="">
+                        </div>
+                        <div class="ps-card-body text-center">
+                            <div class="sec-title">
+                                <h3>জনাব মোঃ আমিনুল ইসলাম</h3>
+                                <p>অতিরিক্ত পুলিশ সুপার</p>
+                            </div>
+                            <div class="ps-btn">
+                                <a href="police-super.html">বিস্তারিত </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="ps-card rainbow">
+                        <div class="ps-card-img">
+                            <img src="images/igp.jpg" alt="">
+                        </div>
+                        <div class="ps-card-body text-center">
+                            <div class="sec-title">
+                                <h3>জনাব মোঃ আমিনুল ইসলাম</h3>
+                                <p>অতিরিক্ত পুলিশ সুপার</p>
+                            </div>
+                            <div class="ps-btn">
+                                <a href="police-super.html">বিস্তারিত </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <ul class="circles">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
             </div>
         </div>
     </section>
@@ -316,9 +456,9 @@
     <section class="cards-news py-5">
         <div class="container">
             <div class="info-cards py-5">
-                <div class="row">
+                <div class="row uk-flex uk-flex-center">
                     <div class="col-md-3 col-sm-6 col-6">
-                        <div class="info-card">
+                        <div class="info-card" style="background: #F60000;">
                             <div class="info-card-icon">
                                 <p><i class="fas fa-stamp"></i></p>
                             </div>
@@ -336,7 +476,7 @@
                         </div>
                     </div>
                     <div class="col-md-3 col-sm-6 col-6">
-                        <div class="info-card">
+                        <div class="info-card" style="background: #FF8C00;">
                             <div class="info-card-icon">
                                 <p><i class="fas fa-eye"></i></p>
                             </div>
@@ -355,7 +495,7 @@
                         </div>
                     </div>
                     <div class="col-md-3 col-sm-6 col-6">
-                        <div class="info-card">
+                        <div class="info-card" style="background: #FF35C5;">
                             <div class="info-card-icon">
                                 <p><i class="fas fa-user-secret"></i></p>
                             </div>
@@ -375,7 +515,68 @@
                         </div>
                     </div>
                     <div class="col-md-3 col-sm-6 col-6">
-                        <div class="info-card">
+                        <div class="info-card" style="background: #4DE94C;">
+                            <div class="info-card-icon">
+                                <p><i class="fas fa-shield-alt"></i></p>
+                            </div>
+                            <div class="info-card-title">
+                                <h3>সাইবার নিরাপত্তা</h3>
+                            </div>
+                            <div class="info-card-items">
+                                <ul>
+                                    <li><a class="uk-button uk-button-text" href="#">সাইবার প্রতারণা</a></li>
+                                    <li><a class="uk-button uk-button-text" href="#">সম্পত্তি ক্রয় প্রতারণা</a>
+                                    </li>
+                                    <li><a class="uk-button uk-button-text" href="#">জাল টাকা প্রতারণা</a></li>
+                                    <li><a class="uk-button uk-button-text" href="#">অর্থ সংক্রান্ত প্রতারণা</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-6">
+                        <div class="info-card" style="background: #3783FF;">
+                            <div class="info-card-icon">
+                                <p><i class="fas fa-user-secret"></i></p>
+                            </div>
+                            <div class="info-card-title">
+                                <h3>অপরাধ বিষয়ক</h3>
+                            </div>
+                            <div class="info-card-items">
+                                <ul>
+                                    <li><a class="uk-button uk-button-text" href="#">অপরাধ প্রতিরোধ</a></li>
+                                    <li><a class="uk-button uk-button-text" href="#">অভিযুক্ত অপরাধী</a></li>
+                                    <li><a class="uk-button uk-button-text" href="#">মহিলা ও শিশু অপরাধী</a>
+                                    </li>
+                                    <li><a class="uk-button uk-button-text" href="#">সাইবার ও ইন্টারনেট
+                                            অপরাধী</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 col-6">
+                        <div class="info-card" style="background:#FB2846;">
+                            <div class="info-card-icon">
+                                <p><i class="fas fa-shield-alt"></i></p>
+                            </div>
+                            <div class="info-card-title">
+                                <h3>সাইবার নিরাপত্তা</h3>
+                            </div>
+                            <div class="info-card-items">
+                                <ul>
+                                    <li><a class="uk-button uk-button-text" href="#">সাইবার প্রতারণা</a></li>
+                                    <li><a class="uk-button uk-button-text" href="#">সম্পত্তি ক্রয় প্রতারণা</a>
+                                    </li>
+                                    <li><a class="uk-button uk-button-text" href="#">জাল টাকা প্রতারণা</a></li>
+                                    <li><a class="uk-button uk-button-text" href="#">অর্থ সংক্রান্ত প্রতারণা</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-6">
+                        <div class="info-card" style="background: #800080;">
                             <div class="info-card-icon">
                                 <p><i class="fas fa-shield-alt"></i></p>
                             </div>
@@ -400,7 +601,13 @@
     </section>
     <!-- cards section end -->
     <!-- news section start from here -->
-    <section class="news-notic-sec py-5">
+    <section class="news-notic-sec">
+        <div class="cards-news-bgi">
+            <img src="images/arts/sheba.svg" alt="">
+        </div>
+        <div class="cards-news-bgi2">
+            <img src="images/arts/sheba.svg" alt="">
+        </div>
         <div class="container">
             <div class="row">
                 <div class="col-md-5 col-sm-6">
@@ -418,19 +625,25 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="news-box">
-                            <ul>
-                                <li class="news-item"><a href="news-details.html">
-                                        <div class="news-img">
-                                            <img src="images/police-cover.jpg" alt="">
-                                        </div>
-                                        <div class="news-body2">
-                                            <p><b>টাইটেল</b></p>
-                                            <p class="py-text">খবর ২ লাইন হবে খবর ২ লাইন হবে খবর ২ লাইন হবে </p>
-                                        </div>
-                                    </a>
-                                </li>
-                            </ul>
+                        <div class="news-box box-outer">
+                            <div class="main_box">
+                                <div class='bar top'></div>
+                                <div class='bar right-b delay'></div>
+                                <div class='bar bottom delay'></div>
+                                <div class='bar left-b'></div>
+                                <ul>
+                                    <li class="news-item"><a href="news-details.html">
+                                            <div class="news-img">
+                                                <img src="images/police-cover.jpg" alt="">
+                                            </div>
+                                            <div class="news-body2">
+                                                <p><b>টাইটেল</b></p>
+                                                <p class="py-text">খবর ২ লাইন হবে খবর ২ লাইন হবে খবর ২ লাইন হবে </p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
 
                         <!-- latest news end -->
@@ -452,21 +665,27 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="news-box">
-                            <ul>
-                                <li><a href="notice-details.html">
-                                        <div class="news-date">
-                                            <h2>১২</h2>
-                                            <p>অক্টোবর</p>
-                                        </div>
-                                        <div class="news-body">
-                                            <p><b>টাইটেল</b></p>
-                                            <p class="py-text">খবর ২ লাইন হবে</p>
-                                        </div>
-                                    </a>
-                                </li>
+                        <div class="news-box box-outer">
+                            <div class="main_box">
+                                <div class='bar top'></div>
+                                <div class='bar right-b delay'></div>
+                                <div class='bar bottom delay'></div>
+                                <div class='bar left-b'></div>
+                                <ul>
+                                    <li><a href="notice-details.html">
+                                            <div class="news-date">
+                                                <h2>১২</h2>
+                                                <p>অক্টোবর</p>
+                                            </div>
+                                            <div class="news-body">
+                                                <p><b>টাইটেল</b></p>
+                                                <p class="py-text">খবর ২ লাইন হবে</p>
+                                            </div>
+                                        </a>
+                                    </li>
 
-                            </ul>
+                                </ul>
+                            </div>
                         </div>
 
                         <!-- latest news end -->
@@ -477,104 +696,106 @@
     </section>
     <!-- news section end -->
     <!-- wanted slider section start from here -->
-    <section class="wanted-slider-sec py-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 py-5">
-                    <div class="sec-title text-center">
-                        <h2>ওয়ান্টেড লিস্ট</h2>
-                        <span>অপরাধীদের ধরিয়ে দিন। পুলিশকে সহায়তা করুন।।</span>
+    <section class="wanted-slider-sec">
+        <div class="wanted-slider-bg py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 py-5">
+                        <div class="sec-title text-center">
+                            <h2>ওয়ান্টেড লিস্ট</h2>
+                            <span>অপরাধীদের ধরিয়ে দিন। পুলিশকে সহায়তা করুন।।</span>
+                        </div>
+                        <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider>
+
+                            <ul class="uk-slider-items uk-child-width-1-2 uk-child-width-1-2@s uk-child-width-1-2@m">
+                                <li class="uk-transition-toggle" tabindex="0">
+                                    <img src="images\1-407x407.jpg" alt="">
+                                    <div class="uk-position-bottom uk-panel">
+                                        <div class="uk-transition-slide-bottom-small wanted-hover">
+                                            <a href="#">নাম</a>
+                                            <span>পরিচয়</span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="uk-transition-toggle" tabindex="0">
+                                    <img src="images\1-407x407.jpg" alt="">
+                                    <div class="uk-position-bottom uk-panel">
+                                        <div class="uk-transition-slide-bottom-small wanted-hover">
+                                            <a href="#">নাম</a>
+                                            <span>পরিচয়</span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="uk-transition-toggle" tabindex="0">
+                                    <img src="images\1-407x407.jpg" alt="">
+                                    <div class="uk-position-bottom uk-panel">
+                                        <div class="uk-transition-slide-bottom-small wanted-hover">
+                                            <a href="#">নাম</a>
+                                            <span>পরিচয়</span>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+
+                            <a class="uk-position-center-left uk-position-small uk-hidden-hover py-slider-nav" href="#"
+                                uk-slidenav-previous uk-slider-item="previous"></a>
+                            <a class="uk-position-center-right uk-position-small uk-hidden-hover py-slider-nav" href="#"
+                                uk-slidenav-next uk-slider-item="next"></a>
+
+                        </div>
                     </div>
-                    <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider>
+                    <div class="col-md-6 py-5">
+                        <div class="sec-title text-center">
+                            <h2>সন্ধান চাই</h2>
+                            <span>নিখোঁজদের সন্ধান দিয়ে পুলিশকে সহায়তা করুন।।</span>
+                        </div>
+                        <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider>
 
-                        <ul class="uk-slider-items uk-child-width-1-2 uk-child-width-1-2@s uk-child-width-1-2@m">
-                            <li class="uk-transition-toggle" tabindex="0">
-                                <img src="images\1-407x407.jpg" alt="">
-                                <div class="uk-position-bottom uk-panel">
-                                    <div class="uk-transition-slide-bottom-small wanted-hover">
-                                        <a href="#">নাম</a>
-                                        <span>পরিচয়</span>
+                            <ul class="uk-slider-items uk-child-width-1-2 uk-child-width-1-2@s uk-child-width-1-2@m">
+                                <li class="uk-transition-toggle" tabindex="0">
+                                    <img src="images\1-407x407.jpg" alt="">
+                                    <div class="uk-position-bottom uk-panel">
+                                        <div class="uk-transition-slide-bottom-small wanted-hover">
+                                            <a href="#">নাম</a>
+                                            <span>পরিচয়</span>
+                                        </div>
                                     </div>
-                                </div>
-                            </li>
-                            <li class="uk-transition-toggle" tabindex="0">
-                                <img src="images\1-407x407.jpg" alt="">
-                                <div class="uk-position-bottom uk-panel">
-                                    <div class="uk-transition-slide-bottom-small wanted-hover">
-                                        <a href="#">নাম</a>
-                                        <span>পরিচয়</span>
+                                </li>
+                                <li class="uk-transition-toggle" tabindex="0">
+                                    <img src="images\1-407x407.jpg" alt="">
+                                    <div class="uk-position-bottom uk-panel">
+                                        <div class="uk-transition-slide-bottom-small wanted-hover">
+                                            <a href="#">নাম</a>
+                                            <span>পরিচয়</span>
+                                        </div>
                                     </div>
-                                </div>
-                            </li>
-                            <li class="uk-transition-toggle" tabindex="0">
-                                <img src="images\1-407x407.jpg" alt="">
-                                <div class="uk-position-bottom uk-panel">
-                                    <div class="uk-transition-slide-bottom-small wanted-hover">
-                                        <a href="#">নাম</a>
-                                        <span>পরিচয়</span>
+                                </li>
+                                <li class="uk-transition-toggle" tabindex="0">
+                                    <img src="images\1-407x407.jpg" alt="">
+                                    <div class="uk-position-bottom uk-panel">
+                                        <div class="uk-transition-slide-bottom-small wanted-hover">
+                                            <a href="#">নাম</a>
+                                            <span>পরিচয়</span>
+                                        </div>
                                     </div>
-                                </div>
-                            </li>
-                        </ul>
+                                </li>
+                                <li class="uk-transition-toggle" tabindex="0">
+                                    <img src="images\1-407x407.jpg" alt="">
+                                    <div class="uk-position-bottom uk-panel">
+                                        <div class="uk-transition-slide-bottom-small wanted-hover">
+                                            <a href="#">নাম</a>
+                                            <span>পরিচয়</span>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
 
-                        <a class="uk-position-center-left uk-position-small uk-hidden-hover py-slider-nav" href="#"
-                            uk-slidenav-previous uk-slider-item="previous"></a>
-                        <a class="uk-position-center-right uk-position-small uk-hidden-hover py-slider-nav" href="#"
-                            uk-slidenav-next uk-slider-item="next"></a>
+                            <a class="uk-position-center-left uk-position-small uk-hidden-hover py-slider-nav" href="#"
+                                uk-slidenav-previous uk-slider-item="previous"></a>
+                            <a class="uk-position-center-right uk-position-small uk-hidden-hover py-slider-nav" href="#"
+                                uk-slidenav-next uk-slider-item="next"></a>
 
-                    </div>
-                </div>
-                <div class="col-md-6 py-5">
-                    <div class="sec-title text-center">
-                        <h2>সন্ধান চাই</h2>
-                        <span>নিখোঁজদের সন্ধান দিয়ে পুলিশকে সহায়তা করুন।।</span>
-                    </div>
-                    <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider>
-
-                        <ul class="uk-slider-items uk-child-width-1-2 uk-child-width-1-2@s uk-child-width-1-2@m">
-                            <li class="uk-transition-toggle" tabindex="0">
-                                <img src="images\1-407x407.jpg" alt="">
-                                <div class="uk-position-bottom uk-panel">
-                                    <div class="uk-transition-slide-bottom-small wanted-hover">
-                                        <a href="#">নাম</a>
-                                        <span>পরিচয়</span>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="uk-transition-toggle" tabindex="0">
-                                <img src="images\1-407x407.jpg" alt="">
-                                <div class="uk-position-bottom uk-panel">
-                                    <div class="uk-transition-slide-bottom-small wanted-hover">
-                                        <a href="#">নাম</a>
-                                        <span>পরিচয়</span>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="uk-transition-toggle" tabindex="0">
-                                <img src="images\1-407x407.jpg" alt="">
-                                <div class="uk-position-bottom uk-panel">
-                                    <div class="uk-transition-slide-bottom-small wanted-hover">
-                                        <a href="#">নাম</a>
-                                        <span>পরিচয়</span>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="uk-transition-toggle" tabindex="0">
-                                <img src="images\1-407x407.jpg" alt="">
-                                <div class="uk-position-bottom uk-panel">
-                                    <div class="uk-transition-slide-bottom-small wanted-hover">
-                                        <a href="#">নাম</a>
-                                        <span>পরিচয়</span>
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
-
-                        <a class="uk-position-center-left uk-position-small uk-hidden-hover py-slider-nav" href="#"
-                            uk-slidenav-previous uk-slider-item="previous"></a>
-                        <a class="uk-position-center-right uk-position-small uk-hidden-hover py-slider-nav" href="#"
-                            uk-slidenav-next uk-slider-item="next"></a>
-
+                        </div>
                     </div>
                 </div>
             </div>
@@ -582,9 +803,39 @@
     </section>
     <!-- wanted slider section end -->
     <!-- gallery section start frome here -->
-    <div class="gallery-sec py-5">
-        <div class="container-fluid py-5 p-0">
-            <div class="sec-title text-center">
+    <div class="gallery-sec main pt-5">
+        <div class='bubble bubble-1'></div>
+        <div class='bubble bubble-2'></div>
+        <div class='bubble bubble-3'></div>
+        <div class='bubble bubble-4'></div>
+        <div class='bubble bubble-5'></div>
+        <div class='bubble bubble-6'></div>
+        <div class='bubble bubble-7'></div>
+        <div class='bubble bubble-8'></div>
+        <div class='bubble bubble-9'></div>
+        <div class='bubble bubble-10'></div>
+        <div class='bubble bubble-11'></div>
+        <div class='bubble bubble-12'></div>
+        <div class='bubble bubble-13'></div>
+        <div class='bubble bubble-14'></div>
+        <div class='bubble bubble-15'></div>
+        <div class='bubble bubble-16'></div>
+        <div class='bubble bubble-17'></div>
+        <div class='bubble bubble-18'></div>
+        <div class='bubble bubble-19'></div>
+        <div class='bubble bubble-20'></div>
+        <div class='bubble bubble-21'></div>
+        <div class='bubble bubble-22'></div>
+        <div class='bubble bubble-23'></div>
+        <div class='bubble bubble-24'></div>
+        <div class='bubble bubble-25'></div>
+        <div class='bubble bubble-26'></div>
+        <div class='bubble bubble-27'></div>
+        <div class='bubble bubble-28'></div>
+        <div class='bubble bubble-29'></div>
+        <div class='bubble bubble-30'></div>
+        <div class="container-fluid pt-5 p-0">
+            <div class="sec-title text-center mb-5">
                 <h2>ফটো ও ভিডিও গ্যালারি</h2>
                 <span>শেরপুর জেলা পুলিশের স্মরণীয় মুহূর্তগুলো</span>
             </div>
@@ -660,155 +911,335 @@
         </div>
     </div>
     <!-- gallery section end -->
-    <!-- Subscribe Start -->
-    <section class="subscribe-area py-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-8 offset-md-2 py-5">
-                    <div class="sec-title text-center">
-                        <h2>নিউজলেটার সাবস্ক্রাইব করুন</h2>
-                        <span>ইমেইলের মাধ্যমে আপডেট পেতে আমাদের নিউজলেটার সাবস্ক্রাইব করুন</span>
+    <!-- importent apps section -->
+    <div class="app-sec py-5">
+        <div class="container pt-5 p-0">
+            <div class="sec-title text-center mb-3">
+                <h2 class="mb-3">গুরুত্বপূর্ণ অ্যাপস</h2>
+                <span>মোবাইল অ্যাপের মাধ্যমে বিভিন্ন সেবা ও তথ্য পেতে <br>Google Play Store থেকে এই অ্যাপগুলো ইনস্টল করে
+                    নিতে পারেন।</span>
+            </div>
+            <div uk-slider>
+
+                <div class="uk-position-relative">
+
+                    <div class="uk-slider-container uk-light">
+                        <ul class="uk-slider-items uk-child-width-1-2 uk-child-width-1-3@s uk-child-width-1-4@m">
+                            <li>
+                                <a href="" target="_blank" class="apps-card">
+                                    <div class="apps-img">
+                                        <img src="images/app1.jpg" alt="">
+                                    </div>
+                                    <p>
+                                        অ্যাপসের নাম
+                                    </p>
+                                    <div class="ratting">
+                                        <i class="fas fa-star rat"></i>
+                                        <i class="fas fa-star rat"></i>
+                                        <i class="fas fa-star rat"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" target="_blank" class="apps-card">
+                                    <div class="apps-img">
+                                        <img src="images/app2.jpg" alt="">
+                                    </div>
+                                    <p>
+                                        অ্যাপসের নাম
+                                    </p>
+                                    <div class="ratting">
+                                        <i class="fas fa-star rat"></i>
+                                        <i class="fas fa-star rat"></i>
+                                        <i class="fas fa-star rat"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" target="_blank" class="apps-card">
+                                    <div class="apps-img">
+                                        <img src="images/app3.jpg" alt="">
+                                    </div>
+                                    <p>
+                                        অ্যাপসের নাম
+                                    </p>
+                                    <div class="ratting">
+                                        <i class="fas fa-star rat"></i>
+                                        <i class="fas fa-star rat"></i>
+                                        <i class="fas fa-star rat"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" target="_blank" class="apps-card">
+                                    <div class="apps-img">
+                                        <img src="images/app4.jpg" alt="">
+                                    </div>
+                                    <p>
+                                        অ্যাপসের নাম
+                                    </p>
+                                    <div class="ratting">
+                                        <i class="fas fa-star rat"></i>
+                                        <i class="fas fa-star rat"></i>
+                                        <i class="fas fa-star rat"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" target="_blank" class="apps-card">
+                                    <div class="apps-img">
+                                        <img src="images/app5.jpg" alt="">
+                                    </div>
+                                    <p>
+                                        অ্যাপসের নাম
+                                    </p>
+                                    <div class="ratting">
+                                        <i class="fas fa-star rat"></i>
+                                        <i class="fas fa-star rat"></i>
+                                        <i class="fas fa-star rat"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" target="_blank" class="apps-card">
+                                    <div class="apps-img">
+                                        <img src="images/app6.jpg" alt="">
+                                    </div>
+                                    <p>
+                                        অ্যাপসের নাম
+                                    </p>
+                                    <div class="ratting">
+                                        <i class="fas fa-star rat"></i>
+                                        <i class="fas fa-star rat"></i>
+                                        <i class="fas fa-star rat"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
                     </div>
-                    <div class="newsletter-form mc_embed_signup">
-                        <form class="validate">
-                            <div>
-                                <input type="email" name="mail" placeholder="আপনার ভেরিফাই করা ইমেইল দিন" required>
-                                <button type="submit">
-                                    <span>সাবস্ক্রাইব</span>
-                                </button>
-                            </div>
-                        </form>
+
+                    <div class="uk-hidden@s uk-light">
+                        <a class="uk-position-center-left uk-position-small py-slider-nav nav-white" href="#"
+                            uk-slidenav-previous uk-slider-item="previous"></a>
+                        <a class="uk-position-center-right uk-position-small py-slider-nav nav-white" href="#"
+                            uk-slidenav-next uk-slider-item="next"></a>
+                    </div>
+
+                    <div class="uk-visible@s">
+                        <a class="uk-position-center-left-out uk-position-small py-slider-nav nav-white" href="#"
+                            uk-slidenav-previous uk-slider-item="previous"></a>
+                        <a class="uk-position-center-right-out uk-position-small py-slider-nav nav-white" href="#"
+                            uk-slidenav-next uk-slider-item="next"></a>
+                    </div>
+
+                </div>
+
+                <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul>
+
+            </div>
+        </div>
+    </div>
+    <!-- Subscribe Start -->
+    <section class="subscribe-area">
+        <div class="py-5" style="background-image: url(images/arts/menu-bgi2.png); background-size: contain;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 offset-md-2 py-5">
+                        <div class="sec-title text-center">
+                            <h2>নিউজলেটার সাবস্ক্রাইব করুন</h2>
+                            <span>ইমেইলের মাধ্যমে আপডেট পেতে আমাদের নিউজলেটার সাবস্ক্রাইব করুন</span>
+                        </div>
+                        <div class="newsletter-form mc_embed_signup">
+                            <form class="validate">
+                                <div>
+                                    <input type="email" name="mail" placeholder="আপনার ভেরিফাই করা ইমেইল দিন" required>
+                                    <button type="submit">
+                                        <span>সাবস্ক্রাইব</span>
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
     <!-- Subscribe End -->
+    <!-- map -->
+    <section style="padding: 0px">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3615.39134564321!2d90.01311361448077!3d25.02078984497606!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3757d615b84d52ed%3A0xb19f0ab55fd5ef91!2sPolice%20Super%20Office!5e0!3m2!1sen!2sbd!4v1573059368630!5m2!1sen!2sbd"
+            frameborder="0" style="border:0;height: 50vh; width: 100%" allowfullscreen=""></iframe>
+    </section>
+    <!-- map -->
     <!-- Footer Start -->
-    <section class="footer-area">
-        <div class="main-footer py-5">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-3 col-sm-6 col-xs-12 py-5">
-                        <div class="single-widget pr-5">
-                            <div class="footer-logo sec-title pb-25">
-                                <a href="index.html"><img src="images/logo.svg" alt="GAI">
-                                    <h2>জেলা পুলিশ শেরপুর</h2>
-                                </a>
+    <div id="container" class="footer-sec">
+        <section class="footer-area">
+            <div class="main-footer pt-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-6 col-xs-12 py-5">
+                            <div class="single-widget pr-5">
+                                <div class="footer-logo sec-title pb-25">
+                                    <a href="index.html"><img src="images/logo-dark.png" alt="জেলা পুলিশ শেরপুর">
+                                        <h2>জেলা পুলিশ শেরপুর</h2>
+                                    </a>
+                                </div>
+                                <div class="footer-social">
+                                    <ul>
+                                        <li><a href="tel:+880173-373519"><i class="fas fa-phone"></i></a></li>
+                                        <li><a href="mailto:spsherpur@police.gov.bd"><i class="fas fa-at"></i></a></li>
+                                        <li><a href="#/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li><a href="#" target="_blank"><i class="fas fa-play"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
-                            <div class="footer-social">
+                        </div>
+                        <div class="col-md-3 col-sm-6 py-5">
+                            <div class="single-widget">
+                                <h3>তথ্য বাতায়ন</h3>
                                 <ul>
-                                    <li><a href="tel:+880173-373519"><i class="fas fa-phone"></i></a></li>
-                                    <li><a href="mailto:spsherpur@police.gov.bd"><i class="fas fa-at"></i></a></li>
-                                    <li><a href="#/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-                                    <li><a href="#" target="_blank"><i class="fas fa-play"></i></a>
+                                    <li><a class="uk-button-text" href="http://www.mha.gov.bd"
+                                            target="_blank">স্বরাষ্ট্র
+                                            মন্ত্রণালয়</a></li>
+                                    <li><a class="uk-button-text" href="http://www.police.gov.bd" target="_blank">পুলিশ
+                                            হেডকোয়াটার্স, বাংলাদেশ
+                                            পুলিশ</a></li>
+                                    <li><a class="uk-button-text" href="http://www.rab.gov.bd/" target="_blank">র‍্যাপিড
+                                            অ্যাকশন
+                                            ব্যাটেলিয়ন</a>
+                                    </li>
+                                    <li><a class="uk-button-text" href="http://dmp.gov.bd/" target="_blank">ডিএমপি</a>
+                                    </li>
+                                    <li><a class="uk-button-text" href="http://police.gov.bd/webmail"
+                                            target="_blank">ওয়েব
+                                            মেইল</a></li>
+                                    <!-- <li class="py-accordion">
+                                        <ul uk-accordion>
+                                            <li>
+                                                <a class="uk-accordion-title more-link-btn" href="#">আরো গুরুত্বপূর্ণ
+                                                    লিংক...</a>
+                                                <div class="uk-accordion-content m-0">
+                                                    <ul>
+                                                        <li><a class="uk-button-text" href="http://www.mha.gov.bd"
+                                                                target="_blank">স্বরাষ্ট্র
+                                                                মন্ত্রণালয়</a></li>
+                                                        <li><a class="uk-button-text" href="http://www.police.gov.bd"
+                                                                target="_blank">পুলিশ
+                                                                হেডকোয়াটার্স, বাংলাদেশ
+                                                                পুলিশ</a></li>
+                                                        <li><a class="uk-button-text" href="http://www.rab.gov.bd/"
+                                                                target="_blank">র‍্যাপিড অ্যাকশন
+                                                                ব্যাটেলিয়ন</a>
+                                                        </li>
+                                                        <li><a class="uk-button-text" href="http://dmp.gov.bd/"
+                                                                target="_blank">ডিএমপি</a></li>
+                                                        <li><a class="uk-button-text"
+                                                                href="http://police.gov.bd/webmail" target="_blank">ওয়েব
+                                                                মেইল</a></li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </li> -->
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 py-5">
+                            <div class="single-widget">
+                                <h3>গুরুত্বপূর্ণ লিংক</h3>
+                                <ul>
+                                    <li><a class="uk-button-text" href="http://police.bogra.gov.bd/"
+                                            target="_blank">পুলিশ
+                                            সুপারের
+                                            কার্যালয়</a>
+                                    </li>
+                                    <li><a class="uk-button-text" href="http://www.bangladesh.gov.bd"
+                                            target="_blank">বাংলাদেশ
+                                            জাতীয় তথ্য
+                                            বাতায়ন</a></li>
+                                    <li><a class="uk-button-text" href="http://www.bangabhaban.gov.bd"
+                                            target="_blank">রাষ্ট্রপতির
+                                            কার্যালয়</a>
+                                    </li>
+
+                                    <li><a class="uk-button-text" href="https://www.interpol.int/"
+                                            target="_blank">INTERPOL</a>
+                                    </li>
+                                    <li><a class="uk-button-text" href="http://www.un.org/en/index.html"
+                                            target="_blank">United
+                                            Nations</a>
+                                    </li>
+                                    <li class="py-accordion">
+                                        <ul uk-accordion>
+                                            <li>
+                                                <a class="uk-accordion-title more-link-btn" href="#">আরো গুরুত্বপূর্ণ
+                                                    লিংক...</a>
+                                                <div class="uk-accordion-content m-0">
+                                                    <ul>
+                                                        <li><a class="uk-button-text" href="http://www..pmo.gov.bd"
+                                                                target="_blank">প্রধানমন্ত্রীর কার্যালয়</a>
+                                                        </li>
+                                                        <li><a class="uk-button-text" href="http://www.cabinet.gov.bd"
+                                                                target="_blank">মন্ত্রিপরিষদ বিভাগ</a></li>
+                                                        <li><a class="uk-button-text" href="http://www.mopa.gov.bd/"
+                                                                target="_blank">জনপ্রশাসন মন্ত্রণালয়</a></li>
+                                                        <li><a class="uk-button-text" href="http://pcc.police.gov.bd/en"
+                                                                target="_blank">অনলাইন পুলিশ
+                                                                ক্লিয়ারেন্স</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                        </ul>
                                     </li>
                                 </ul>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6 py-5">
-                        <div class="single-widget">
-                            <h3>তথ্য বাতায়ন</h3>
-                            <ul>
-                                <li><a class="uk-button-text" href="about.html">প্রতিষ্ঠান পরিচিতি</a></li>
-                                <li><a class="uk-button-text" href="technology.html">সকল টেকনোলজি</a></li>
-                                <li><a class="uk-button-text" href="database.html">প্রতিষ্ঠানের ডাটাবেজ</a></li>
-                                <li><a class="uk-button-text" href="#">এলডিজি কর্ম পরিকল্পনা</a></li>
-                                <li class="py-accordion">
-                                    <ul uk-accordion>
-                                        <li>
-                                            <a class="uk-accordion-title more-link-btn" href="#">আরো গুরুত্বপূর্ণ
-                                                লিংক...</a>
-                                            <div class="uk-accordion-content m-0">
-                                                <ul>
-                                                    <li><a class="uk-button-text" href="http://www.bteb.gov.bd/"
-                                                            target="_blank">কারিগরি
-                                                            শিক্ষা বোর্ড</a></li>
-                                                    <li><a class="uk-button-text" href="http://www.ideabank.gov.bd/"
-                                                            target="_blank">আইডিয়া
-                                                            ব্যাংক</a></li>
-                                                    <li><a class="uk-button-text" href="https://ictd.gov.bd/"
-                                                            target="_blank">আইসিটি
-                                                            মন্ত্রনালয়</a></li>
-                                                    <li><a class="uk-button-text" href="http://www.step-dte.gov.bd/"
-                                                            target="_blank">স্টেপ
-                                                            প্রকল্প</a></li>
-                                                    <li><a class="uk-button-text" href="http://www.bitm.org.bd/"
-                                                            target="_blank">বিআইটিএম</a></li>
-                                                </ul>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6 py-5">
-                        <div class="single-widget">
-                            <h3>গুরুত্বপূর্ণ লিংক</h3>
-                            <ul>
-                                <li><a class="uk-button-text" href="http://www.bteb.gov.bd/" target="_blank">কারিগরি
-                                        শিক্ষা বোর্ড</a></li>
-                                <li><a class="uk-button-text" href="http://www.ideabank.gov.bd/" target="_blank">আইডিয়া
-                                        ব্যাংক</a></li>
-                                <li><a class="uk-button-text" href="https://ictd.gov.bd/" target="_blank">আইসিটি
-                                        মন্ত্রনালয়</a></li>
-                                <li><a class="uk-button-text" href="http://www.step-dte.gov.bd/" target="_blank">স্টেপ
-                                        প্রকল্প</a></li>
-                                <li class="py-accordion">
-                                    <ul uk-accordion>
-                                        <li>
-                                            <a class="uk-accordion-title more-link-btn" href="#">আরো গুরুত্বপূর্ণ
-                                                লিংক...</a>
-                                            <div class="uk-accordion-content m-0">
-                                                <ul>
-                                                    <li><a class="uk-button-text" href="http://www.bteb.gov.bd/"
-                                                            target="_blank">কারিগরি
-                                                            শিক্ষা বোর্ড</a></li>
-                                                    <li><a class="uk-button-text" href="http://www.ideabank.gov.bd/"
-                                                            target="_blank">আইডিয়া
-                                                            ব্যাংক</a></li>
-                                                    <li><a class="uk-button-text" href="https://ictd.gov.bd/"
-                                                            target="_blank">আইসিটি
-                                                            মন্ত্রনালয়</a></li>
-                                                    <li><a class="uk-button-text" href="http://www.step-dte.gov.bd/"
-                                                            target="_blank">স্টেপ
-                                                            প্রকল্প</a></li>
-                                                    <li><a class="uk-button-text" href="http://www.bitm.org.bd/"
-                                                            target="_blank">বিআইটিএম</a></li>
-                                                </ul>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6 py-5">
-                        <div class="single-widget">
-                            <h3>যোগাযোগ করুন</h3>
-                            <p>পুলিশ সুপারের কার্যালয়, শেরপুর</p>
-                            <p>+88-02-0932-61 446<br>+88-02-0932-61 336<br>+88 0173-373 519</p>
-                            <p>spsherpur@police.gov.bd<br>www.sjp.gov.bd</p>
+                        <div class="col-md-3 col-sm-6 py-5">
+                            <div class="single-widget">
+                                <h3>যোগাযোগ করুন</h3>
+                                <p>পুলিশ সুপারের কার্যালয়, শেরপুর</p>
+                                <p>+88-02-0932-61 446<br>+88-02-0932-61 336<br>+88 0173-373 519</p>
+                                <p>spsherpur@police.gov.bd<br>www.sjp.gov.bd</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="footer-bottom">
+            <div class="footer-bottom">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-6 text-left">
+                            <p>কপিরাইট © কর্তৃক সর্বস্বত্ব সংরক্ষিত</p>
+                        </div>
+                        <div class="col-6 text-right">
+                            <p>ডেভেলপ বাই: <a href="#">অরবিট টেকনো</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="bangladesh">
             <div class="container">
-                <div class="row">
-                    <div class="col-6 text-left">
-                        <p>কপিরাইট © কর্তৃক সর্বস্বত্ব সংরক্ষিত</p>
-                    </div>
-                    <div class="col-6 text-right">
-                        <p>ডেভেলপ বাই: <a href="#">অরবিট টেকনো</a></p>
-                    </div>
-                </div>
+                <img src="images/arts/bangladesh.svg" alt="">
             </div>
         </div>
-    </section>
+    </div>
+    <footer></footer>
     <!-- Footer End -->
 
     <!-- scroll up -->
@@ -824,6 +1255,8 @@
 <script src="js/bootstrap.min.js"></script>
 <!-- UIkit 3.2.1 script file -->
 <script src="js/uikit.min.js"></script>
+<!-- butterflie-animation js -->
+<script src="plugins/butterflie-animation/script.js"></script>
 <!-- pyfellow theme script file -->
 <script src="js/main.js"></script>
 

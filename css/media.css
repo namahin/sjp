@@ -44,10 +44,14 @@
 
 /* // Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
-    .info-card {margin-bottom: 25px;}
-    .info-card h3{
+    .info-card {
+        margin-bottom: 25px;
+    }
+
+    .info-card h3 {
         font-size: 18px
     }
+
     .gallery-slider-item a i {
         font-size: 30px;
     }
@@ -57,14 +61,13 @@
     }
 
     .side-bar {
-
         margin-right: 0;
         bottom: 0;
         top: auto;
         right: auto;
-        left: 50%;
-        transform: translate(-50%);
-        width: 95%;
+        left: 5px;
+        transform: translate(0);
+        width: auto;
     }
 
     .side-bar ul {
@@ -78,15 +81,18 @@
 
     .side-bar ul li a {
         margin: 0;
-        padding: 5px 10px 5px 0px;
+        padding: 0;
+        border: none;
+        margin-bottom: 5px;
     }
 
     .side-bar ul li a:hover {
         left: 0;
     }
 
-    .side-bar ul li a span {
+    .side-bar ul li a p {
         margin-right: 5px;
+        display: none;
     }
 
     .slider-nav {
